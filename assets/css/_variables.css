@@ -1,0 +1,12 @@
+/** colors variables **/
+:root {
+  --primary-color: #2258BF;
+  --bg-color: #FAFAFA;
+  --color-white: #ffffff;
+  --border-color: #EAECF0;
+  --heading-color: #252729;
+  --text-gray: #818181;
+  --border-color: #342E59;
+  --black-color: #000000;
+  --nav-color: #342E59;
+  --primary-font: "Poppins", system-ui; }

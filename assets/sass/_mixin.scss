@@ -1,0 +1,60 @@
+/** mixins for resposnive breakpoints **/
+@mixin screen-576 {
+    @media (max-width: 575.98px) {
+        @content;
+    }
+}
+
+@mixin screen-768 {
+    @media (max-width: 767.98px) {
+        @content;
+    }
+}
+@mixin screen-992 {
+    @media (max-width: 991.98px) {
+        @content;
+    }
+}
+
+@mixin screen-1200 {
+    @media (max-width: 1199.98px) {
+        @content;
+    }
+}
+
+@mixin screen-1400 {
+    @media (max-width: 1399.98px) {
+        @content;
+    }
+}
+
+@mixin screen-1550 {
+    @media (max-width: 1550px) {
+        @content;
+    }
+} 
+
+@mixin screen-1600 {
+    @media (max-width: 1600px) {
+        @content;
+    }
+}
+
+
+@mixin screen-1700 {
+    @media (max-width: 1700px) {
+        @content;
+    }
+}
+
+@mixin screen-1720 {
+    @media (max-width: 1720px) {
+        @content;
+    }
+}
+
+@mixin screen-1920 {
+    @media (max-width: 1920px) {
+        @content;
+    }
+}

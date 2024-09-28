@@ -1,0 +1,37 @@
+/** main page styles **/
+main {
+    padding-left: 280px;
+    background: var(--bg-color);
+    display: block;
+    padding-top: 120px;
+
+    @include screen-768 {
+        padding-left: 0;
+    }
+}
+
+
+.top-nav {
+    position: fixed;
+    left: 0; 
+    top: 0; 
+    width: 100%;
+    height: 120px;
+    background: var(--color-white);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    z-index: 50;
+    @media(max-width: 1599px){
+        height: 98px;
+    }
+}
+
+/** common classes **/
+.z-2 {
+    z-index: 2;
+}
+.z--1 {
+    z-index: -1;
+}
+.z-5 {
+    z-index: 5;
+}
